@@ -1,6 +1,7 @@
 Blog 1: Why is any a “Type Safety Hole” and Why is unknown the Safer Choice in TypeScript?
 
 Introduction
+
 TypeScript is popular because it adds type safety to JavaScript.
 It helps developers catch errors before running the code. But TypeScript also provides some special types like any and unknown.
 In this blog, we will understand:
