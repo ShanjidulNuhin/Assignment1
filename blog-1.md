@@ -25,14 +25,6 @@ value = true;
 
 Because of this, TypeScript will not show any errors, even if the code is unsafe.
 
-```ts
-let data: any = 50;
-
-console.log(data.toUpperCase());
-```
-
-This code compiles successfully, but it will cause a runtime error because numbers do not have the `toUpperCase()` method.
-
 Using 'any' removes the main advantage of TypeScript — type safety.
 That is why developers call it a **“Type Safety Hole.”**
 
@@ -84,11 +76,9 @@ if (typeof data === "string") {
 }
 ```
 
-Here, TypeScript understands that inside the `if` block, `data` is definitely a string.
+Here, TypeScript understands that inside the 'if' block, 'data' is definitely a string.
 
 This process is called **type narrowing**.
-
----
 
 # Why Type Narrowing is Important
 
@@ -103,7 +93,6 @@ The rule is simple:
 
 > Always check first, then use.
 
----
 
 # Conclusion
 
