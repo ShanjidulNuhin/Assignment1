@@ -1,7 +1,6 @@
 # Why is 'any' a “Type Safety Hole” and Why is 'unknown'` the Safer Choice in TypeScript?
 
-## Introduction
-
+# Introduction
 TypeScript is popular because it adds **type safety** to JavaScript.
 It helps developers catch errors during development instead of at runtime. However, TypeScript also provides some special types like 'any' and 'unknown'`.
 
@@ -14,7 +13,6 @@ In this blog, we will discuss:
 
 
 # Why 'any' is Dangerous
-
 The 'any' type can store any kind of value.
 When we use 'any', TypeScript completely disables type checking for that variable.
 
